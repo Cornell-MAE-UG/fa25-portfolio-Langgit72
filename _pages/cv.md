@@ -1,50 +1,56 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
-permalink: /cv/
+title: Langston Johnson - Resume
+permalink: /resume/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/Langston_Johnson_Resume.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [{{site.email}}](mailto:{{site.email}}) | | | **Phone:** 202-674-8804
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+I'm an Undergraduate Engineering student at Cornell University. I'm interested in developing permanent human presences in Low Earth Orbit, the Lunar Surface, and beyond. My areas of technical focus are Spacecraft, Mission Design and Space Structures.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.96/4.0 | Graduation: May, 2027
 
-- **[High School Name]**  
+- **[Sidwell Friends School]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: June, 2023
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Software:** SolidWorks, Fusion 360, Ansys.
+- **Programming:** Python, MATLAB, Git, C#, SQL
+- **Tools:** 3D Printing, Manual Mill, Manual Lathe 
 
 ---
 
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+#### Course Projects
+- **[AEP 1100: Nitrogen Laser]**:  
+  *[In this experiment, we operated a completely assembled N2 Laser.]*  
+  - Soldering and Testing of E555 pulse generator circuit
+  - Integration with Pulse Amplifier Circuit
+  - Operation of Pulse Laser 
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **[MAE 3270: Instrumented Torque Wrench Design]**:  
+  *[This Assignment Involved the Design of a non-ratcheting, 3/8 inch drive instrumented torque wrench rated for 600 in-lbf.]*  
+  - Identify relevant material properties to meet design constraints and select optimal material for design.
+  - Perform first cut design considering multiple constraints. Confirm requirements using anaylical calculation
+  - Refine design geometry to maximize instrumentation and mitigate stress concentrations.
+
+ #### Personal Projects
+ - **[Cornell Rocketry Team: Instrumented Torque Wrench Design]**
+  *[Design and Manufacturing of Air Brakes for 10k Hybrid Rocket]* 
 
 ---
 
@@ -58,13 +64,14 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 
 #### Achievements & Certifications
 - [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- [Dean Archer Undergraduation Research Award], [Cornell ELI], [2024]  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Member of Cornell Rocketry Team
+- Member of the Space Systems Design Studio  
+- 2025 Patti Grace Smith Fellowship
 
 ---
 
