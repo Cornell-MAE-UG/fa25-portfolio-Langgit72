@@ -14,7 +14,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Langston Johnson
 email                    : "lcj36@cornell.edu"
 description              : Langston Johnson - Projects and CV 
-baseurl                  : "/fall-2025-portfolio-Langgit72/" # Set this to your repo name 
+baseurl                  : "/fa25-portfolio-Langgit72/" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
