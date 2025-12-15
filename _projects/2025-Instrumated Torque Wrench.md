@@ -73,8 +73,6 @@ The CAD model is primarily based on the basic dimensions from the hand calculati
 
 ![Basic Dimensions of Wrench]({{"assets\images\InstrumatedTorqueWrench\Drawing.png" | relative_url }}){: .inline-image-1}
 
-![]({{"assets\images\InstrumatedTorqueWrench\.png" | relative_url }}){: .inline-image-l}
-
 
 ### FEM Analysis
 
