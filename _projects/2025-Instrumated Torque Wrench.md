@@ -32,7 +32,7 @@ Design will include selecting an appropriate material and dimensions to meet or 
 The wrench will be one solid body, to avoid bonding weaknesses. Therefore there will be one material selected for the core part of the wrench. There are a few material properties that are relevant in the determination of the material used for the wrench. The tensile strength is what determines the safety factor against non-brittle failure. The material should not be brittle, because the wrench should have a considerable elastic regime in which the strain gauge section can deform. This will increase the sensitivity of the instrumentation device. It is also very important that the material has a high fracture toughness. This is because in order to increase the sensitivity of the wrench the cross section at the strain gauge needs to be reduced, which can reduce the factor of safety against crack growth. Aluminium has far lower strength and toughness than steel and titanium.
 The comparison in the chart it becomes clear that while M-Series tooling steels (like M42) have a higher young’s modulus they have comparatively lower fracture toughness. High Alloy Steels have a very high fracture toughness and are less strong than some Tooling Steels and other alloy steels. High Alloy Steel AF1410 was chosen due to its relatively high yield strength, fracture toughness, and Young's modulus.
 
-![Yield Strength vs Fracture Toughness for a Variety of Steel, Aluminium, and Titanium Alloys]({{"assets\images\InstrumatedTorqueWrench\PropertyGraph.png" | relative_url }}){: .inline-image-l}
+![Yield Strength vs Fracture Toughness for a Variety of Steel, Aluminium, and Titanium Alloys]({{"/assets/images/InstrumatedTorqueWrench/PropertyGraph.png" | relative_url }}){: .inline-image-l}
 
 **High Alloy Steel AF1410**:
 - Young's Modulus: *29.4 E6 psi*
@@ -66,12 +66,12 @@ With the analytical results of the baseline design showing promising results I m
 
 ### CAD Model
 
-![Full CAD Model of Final Design]({{"assets\images\InstrumatedTorqueWrench\FullCAD.png" | relative_url }})
+![Full CAD Model of Final Design]({{"/assets/images/InstrumatedTorqueWrench/FullCAD.png" | relative_url }})
 
 The CAD model is primarily based on the basic dimensions from the hand calculation. The width is reduced to 85% of the nominal width of the wrench “h”. The ends of the wrench are circular. And the width of the wrench linearly varies between ends and the strain gauge section. Edges were filleted to reduce stress concentrations wherever possible. ⅜” drive with 0.1” filleted edges.
 
 
-![Basic Dimensions of Wrench]({{"assets\images\InstrumatedTorqueWrench\Drawing.png" | relative_url }}){: .inline-image-1}
+![Basic Dimensions of Wrench]({{"/assets/images/InstrumatedTorqueWrench/Drawing.png" | relative_url }}){: .inline-image-1}
 
 
 ### FEM Analysis
@@ -80,37 +80,37 @@ The CAD model is primarily based on the basic dimensions from the hand calculati
 
 The Boundary Conditions were set so that there was zero displacement at the drive. Similar to a fixed support. And at grip edge of the wrench a force of 37.5 lbf was applied, corresponding to the 600 lbf-in loading condition specificed in the requirements.
 
-![Zero Displacement Boundary Condition]({{"assets\images\InstrumatedTorqueWrench\BoundaryConditions.png" | relative_url }})
+![Zero Displacement Boundary Condition]({{"/assets/images/InstrumatedTorqueWrench/BoundaryConditions.png" | relative_url }})
 
-![Force BoundaryCondition]({{"assets\images\InstrumatedTorqueWrench\ForceCondition.png" | relative_url }})
+![Force BoundaryCondition]({{"/assets/images/InstrumatedTorqueWrench/ForceCondition.png" | relative_url }})
 
 #### FEM Solution
 
 The first solution shows that the reduction in handle thickness at the strain gauge location is effective in increase location strain. The strain probe placed reveals a maximum strain of 1016 microstrain which is around 66% greater than the rectangular design.
 
-![Maximum Normal Strain in Gauge Direction]({{"assets\images\InstrumatedTorqueWrench\MaxStrain_Close.png" | relative_url }})
+![Maximum Normal Strain in Gauge Direction]({{"/assets/images/InstrumatedTorqueWrench/MaxStrain_Close.png" | relative_url }})
 
-![Strain Gauge Location]({{"assets\images\InstrumatedTorqueWrench\MaxStrain_Close_Probe.png" | relative_url }})
+![Strain Gauge Location]({{"/assets/images/InstrumatedTorqueWrench/MaxStrain_Close_Probe.png" | relative_url }})
 
 While the stress at the handle bar surface is around the predict 20 ksi range the stress at the base of the drive far exceeds the predicted maximum normal stress. 95.547 ksi at the locations stress concentration.
 
-![Maximum Stress]({{"assets\images\InstrumatedTorqueWrench\MaxStress_Close.png" | relative_url }})
+![Maximum Stress]({{"/assets/images/InstrumatedTorqueWrench/MaxStress_Close.png" | relative_url }})
 
 The of 0.2626" deflection also exceeds the analytical value of 0.1691"
 
-![Deflection of Wrench]({{"assets\images\InstrumatedTorqueWrench\Deflection.png" | relative_url }})
+![Deflection of Wrench]({{"/assets/images/InstrumatedTorqueWrench/Deflection.png" | relative_url }})
 
 After running a convergence study at the areas of high stress concentration and the strain gauge location these were the final values of interest under the 600 lbf-in loading.
 
-![Refinement  Location]({{"assets\images\InstrumatedTorqueWrench\Refinement.png" | relative_url }})
+![Refinement  Location]({{"/assets/images/InstrumatedTorqueWrench/Refinement.png" | relative_url }})
 
 The new maximum strain at the gauge location is 1232 microstrain, indicated even greater sensitivity than had been expected.
 
-![Maximum Normal Strain in Gauge Direction - Post Refinement]({{"assets\images\InstrumatedTorqueWrench\MaxStrain_Close_Refinement.png" | relative_url }})
+![Maximum Normal Strain in Gauge Direction - Post Refinement]({{"/assets/images/InstrumatedTorqueWrench/MaxStrain_Close_Refinement.png" | relative_url }})
 
 The stress concentrations have become more localized and exacerbated reaching values as high as 186 ksi. These are in very localized areas however, and should not lead to yielding.
 
-![Maximum Normal Stress - Post Refinement]({{"assets\images\InstrumatedTorqueWrench\MaxStress_Close_Refinement.png" | relative_url }})
+![Maximum Normal Stress - Post Refinement]({{"/assets/images/InstrumatedTorqueWrench/MaxStress_Close_Refinement.png" | relative_url }})
 
 #### Strain Gauge
 Strain Gauge Type: *SgT-2/1000-FB41*
@@ -123,6 +123,6 @@ Solder Pad Termination
 VRMS:*12*
 Temperature compensation: *Steel*
 
-![Strain Gauge Trace]({{"assets\images\InstrumatedTorqueWrench\StrainGauge.png" | relative_url }}){: .inline-image-1}
+![Strain Gauge Trace]({{"/assets/images/InstrumatedTorqueWrench/StrainGauge.png" | relative_url }}){: .inline-image-1}
 
-![Strain Gauge CAD]({{"assets\images\InstrumatedTorqueWrench\StrainGaugeCAD.png" | relative_url }}){: .inline-image-1}
+![Strain Gauge CAD]({{"/assets/images/InstrumatedTorqueWrench/StrainGaugeCAD.png" | relative_url }}){: .inline-image-1}
